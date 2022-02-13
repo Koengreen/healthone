@@ -23,7 +23,7 @@ include_once('defaults/head.php');
     </nav>
     <div class="row gy-3 ">
         <?php global $product; ?>
-           <?php foreach($product as $productItem):?>
+           <?php foreach($products as $productItem):?>
             <div class="col-sm-4 col-md-3">
                 <div class="card">
                     <div class="card-body text-center">
